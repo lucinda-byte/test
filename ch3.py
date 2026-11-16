@@ -1,0 +1,7 @@
+lst =list(map(int, input("输入列表, 数字逗号分隔: ").split(',')))
+lst.sort()
+max_num = max(lst)
+avg = sum(lst) / len(lst)
+print("排序后的列表: ",lst)
+print("最大值: ",max_num)
+print("均值:",avg)

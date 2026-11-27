@@ -1,0 +1,7 @@
+a = int(input("请输入首项: "))
+q = int(input("请输入公比(q不等于1,<36正整数): "))
+n = int(input("请输入n: "))
+sn = a * (q**n-1) / (q-1)
+sn = int(sn)
+print("前n项和 = ",sn)
+input("按回车关闭窗口")
